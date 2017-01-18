@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>language_en_gb</name>
+        <label>English (UK)</label>
+        <type>language</type>
+        <version>1.0.0</version>
+        <namespace>\adapt\language\en_gb</namespace>
+        <version_status>release</version_status>
+        <availability>public</availability>
+        <description>Provides support for English (UK).</description>
+        <copyright>2017 Matt Bruton</copyright>
+        <license>MIT</license>
+        <vendor>
+            <name>Adapt Framework</name>
+            <website>http://www.adaptframework.com/documentaion/bundles/language_en_gb</website>
+        </vendor>
+        <depends_on>
+            <bundle>
+                <name>adapt</name>
+                <version>2.0</version>
+            </bundle>
+            <bundle>
+                <name>language</name>
+                <version>1.0</version>
+            </bundle>
+        </depends_on>
+        <schema>
+            <add>
+                <table name="language">
+                    <record>
+                        <name>en_gb</name>
+                        <language_code>en-GB</language_code>
+                        <label>English (UK)</label>
+                    </record>
+                </table>
+            </add>
+        </schema>
+        <settings>
+            <category name="Default language">
+                <setting>
+                    <name>language.default</name>
+                    <label>Default language</label>
+                    <default_value>en_gb</default_value>
+                </setting>
+            </category>
+        </settings>
+    </bundle>
+</adapt_framework>
