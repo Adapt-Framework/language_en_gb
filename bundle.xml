@@ -4,7 +4,7 @@
         <name>language_en_gb</name>
         <label>English (UK)</label>
         <type>language</type>
-        <version>0.7.0</version>
+        <version>1.0.0</version>
         <namespace>\adapt\language\en_gb</namespace>
         <version_status>release</version_status>
         <availability>public</availability>
@@ -22,7 +22,7 @@
             </bundle>
             <bundle>
                 <name>language</name>
-                <version>0.7</version>
+                <version>1.0</version>
             </bundle>
         </depends_on>
         <schema>
